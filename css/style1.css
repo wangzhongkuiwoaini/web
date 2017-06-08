@@ -369,6 +369,7 @@ html {
 .man .outsection {
   -webkit-box-flex: 1;
   background: #f3f3f3;
+  overflow: auto;
 }
 .man .outsection .outone {
   width: 100%;
@@ -422,6 +423,9 @@ html {
   font-size: 0.30rem;
   padding-left: 0.4rem;
 }
+.man .outsection .outone span {
+  font-size: 0.25rem;
+}
 .man .outsection .outone p {
   display: inline-block;
   width: 0.3rem;
@@ -445,6 +449,8 @@ html {
   position: absolute;
   left: 50%;
   margin-left: -3.35rem;
+  top: 50%;
+  margin-top: 2rem;
   border-radius: 0.1rem;
 }
 .man .outsection .outout .outbottom a {
@@ -453,9 +459,6 @@ html {
   display: block;
   color: white;
   line-height: 0.91rem;
-}
-.man .outsection .outout .outbottom.re {
-  margin-top: 7.22rem;
 }
 .man .outsection .texta {
   display: inline-block;
@@ -478,7 +481,6 @@ html {
   left: 50%;
   margin-left: -3.35rem;
   margin-top: 2.8rem;
-  font-size: 0.30rem;
   font-size: 0.3rem;
   border-bottom: 1px solid #cccccc;
   line-height: 0.91rem;
@@ -489,6 +491,7 @@ html {
   background: none;
   border: none;
   outline: none;
+  font-size: 0.26rem;
 }
 .man .outsection .chuana {
   display: inline-block;
@@ -499,7 +502,6 @@ html {
   left: 50%;
   margin-left: -3.35rem;
   margin-top: 3.7rem;
-  font-size: 0.30rem;
   font-size: 0.3rem;
   border-bottom: 1px solid red;
   line-height: 0.91rem;
@@ -510,6 +512,7 @@ html {
   background: none;
   border: none;
   outline: none;
+  font-size: 0.26rem;
 }
 .man .outsection .chuanaa {
   display: inline-block;
@@ -520,7 +523,6 @@ html {
   left: 50%;
   margin-left: -3.35rem;
   margin-top: 4.6rem;
-  font-size: 0.30rem;
   font-size: 0.3rem;
   border-bottom: 1px solid #cccccc;
   line-height: 0.91rem;
@@ -531,6 +533,7 @@ html {
   background: none;
   border: none;
   outline: none;
+  font-size: 0.26rem;
 }
 .man .outsection .people {
   width: 100%;
@@ -547,14 +550,15 @@ html {
   margin-left: 0.4rem;
 }
 .man .outsection .people dl dt img {
-  width: 1.09rem;
-  height: 1.09rem;
+  width: 1.07rem;
+  height: 1.07rem;
   background: none;
 }
 .man .outsection .people dl dd p {
   padding-top: 0.26rem;
   color: #999999;
   padding-left: 0.02rem;
+  font-size: 0.23rem;
 }
 .man .outsection .people dl dd p img {
   width: 0.25rem;
@@ -564,9 +568,11 @@ html {
 .man .outsection .people dl dd span {
   color: #999999;
   padding-left: 0.36rem;
+  font-size: 0.23rem;
 }
 .man .outsection .people a .abc {
   width: 1.01rem;
+  height: 0.5rem;
   margin-top: 0.33rem;
   margin-right: 0.4rem;
 }
@@ -731,9 +737,13 @@ html {
   left: 50%;
   margin-left: -2.25rem;
   margin-top: -1.25rem;
+  -webkit-box-align: center;
 }
 .ques .minner input {
   border: none;
+  text-align: center;
+  font-size: 0.24rem;
+  outline: none;
 }
 .ques .minner span {
   display: inline-block;
@@ -743,6 +753,7 @@ html {
   border-bottom: 1px solid #cccccc;
   text-align: center;
   margin-top: 0.2rem;
+  font-size: 0.25rem;
 }
 .ques .minner a {
   display: inline-block;
@@ -752,4 +763,15 @@ html {
   text-align: center;
   line-height: 0.85rem;
   margin-left: 0.25rem;
+  font-size: 0.35rem;
+}
+.ques .minner p {
+  display: inline-block;
+  width: 3.54rem;
+  height: 0.82rem;
+  background: none;
+  margin-left: 0.48rem;
+  border-bottom: 1px solid #F3F3F3;
+  line-height: 0.82rem;
+  font-size: 0.28rem;
 }
